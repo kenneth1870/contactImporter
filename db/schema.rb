@@ -12,11 +12,14 @@
 
 ActiveRecord::Schema.define(version: 2021_04_13_161403) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
-    t.integer "record_id", null: false
-    t.integer "blob_id", null: false
+    t.bigint "record_id", null: false
+    t.bigint "blob_id", null: false
     t.datetime "created_at", null: false
     t.index ["blob_id"], name: "index_active_storage_attachments_on_blob_id"
     t.index ["record_type", "record_id", "name", "blob_id"], name: "index_active_storage_attachments_uniqueness", unique: true
@@ -35,7 +38,7 @@ ActiveRecord::Schema.define(version: 2021_04_13_161403) do
   end
 
   create_table "active_storage_variant_records", force: :cascade do |t|
-    t.integer "blob_id", null: false
+    t.bigint "blob_id", null: false
     t.string "variation_digest", null: false
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
@@ -48,7 +51,7 @@ ActiveRecord::Schema.define(version: 2021_04_13_161403) do
     t.string "credit_card"
     t.string "franchise"
     t.string "email"
-    t.integer "user_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_contacts_on_user_id"
@@ -56,7 +59,7 @@ ActiveRecord::Schema.define(version: 2021_04_13_161403) do
 
   create_table "failed_registers", force: :cascade do |t|
     t.text "error"
-    t.integer "import_file_id", null: false
+    t.bigint "import_file_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["import_file_id"], name: "index_failed_registers_on_import_file_id"
@@ -64,7 +67,7 @@ ActiveRecord::Schema.define(version: 2021_04_13_161403) do
 
   create_table "import_files", force: :cascade do |t|
     t.string "status"
-    t.integer "user_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_import_files_on_user_id"

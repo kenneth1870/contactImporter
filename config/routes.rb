@@ -14,5 +14,4 @@ Rails.application.routes.draw do
   get 'user/contacts', to: 'user#contacts'
   get 'imported_files/:id/failed_registers',
       to: 'import_file#failed_registers', as: 'failed_registers'
-  match '*unmatched', to: 'errors#route_not_found', via: :all
 end
