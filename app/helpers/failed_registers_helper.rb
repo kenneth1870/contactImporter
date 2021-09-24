@@ -1,0 +1,2 @@
+module FailedRegistersHelper
+end

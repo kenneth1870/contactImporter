@@ -1,0 +1,19 @@
+<br> <br>
+<br> <br>
+
+<h1>Failed Registers</h1>
+<div class="flickr_pagination">
+  <%= will_paginate @failed_registers, :container => false %>
+</div>
+<% if @failed_registers.empty? %>
+  <div><p>No failed registers</p></div>
+<% else %>
+  <p>Errors:</p>
+    <% @failed_registers.each do |register| %>
+      <p><%= register.error %></p>
+    <% end %>
+<% end %>
+
+<div class="flickr_pagination mb-4">
+  <%= will_paginate @failed_registers, :container => false %>
+</div>

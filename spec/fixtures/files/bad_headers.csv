@@ -1,0 +1,9 @@
+nombre,fecha,telefono,direccion,tarjeta,correo
+John Andrews,19800505,(+57) 321 432 15 09,street 21 Main avenue,371449635398431,john@example.com
+Clark Kent,19891030,(+57) 311 132 55 09,street 22 Main avenue,30569309025904,clark@example.com
+Paul Cooper,19980115,(+57) 320 932 05 09,street 23 Main avenue,6011111111111117,paul@example.com
+sam jones,20000707,(+57) 321 832 05 09,street 24 Main avenue,3530111333300000,sam@example.com
+john wick,19851125,(+57) 312 432 02 59,street 25 Main avenue,5555555555554444,jwick@example.com
+testing user,19880419,(+57) 313 432 05 09,street 22 Main avenue,6011111111111117,tuser@example.com
+user test,19801210,(+57) 312 232 05 09,street 21 Main avenue,30569309025904,utest@example.com
+betauser betatest,19960822,(+57) 310 732 05 09,street 23 Main avenue,371449635398431,betatest@example.com

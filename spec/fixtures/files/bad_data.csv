@@ -1,0 +1,9 @@
+name,birthdate,phone,address,credit_card,email
+And,1980050,(+57) 321 432 15 0,street 21 Main avenue,371449635398431,john@example.com
+Clark Kent,19891030,(+5) 311 132 55 09,street 22 Main avenue,30569309025904,clark@
+Paul Cooper,199801,(+57) 320 32 05 09,street 23 Main avenue,6011111111111117564,paul@example.com
+sam jones,200070,(+5) 21 832 05 09,street 24 Main avenue,3530111333300000,sam@example.com
+john wick,1985,(+57) 312 432 02 59,street 25 Main avenue,5555555555554444,jwick@example.com
+testing user,198,(+57) 313 05 09,street 22 Main avenue,6011111111111117,tuser@example.com
+user test,19,(+57) 312 232 05,street 21 Main avenue,30569309025904,utest@example.com
+betauser betatest,19960822,(+57) 310 732 05 09,street 23 Main avenue,371449,betatest@example.com

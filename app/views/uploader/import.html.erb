@@ -1,0 +1,44 @@
+<br> <br>
+<br> <br>
+
+
+
+<h1>Upload Contacts</h1>
+
+<%= form_with model: @import_file, url: import_path do |form| %>
+  <%= form.label :file, "Import file", class: "form-label" %>
+    <%= form.file_field :file, class: "form-control", accept: "text/csv", required: true %>
+    <% @import_file.errors.full_messages_for(:file).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  <div class="mt-3">
+    <h2>Column Pairing</h2>
+    <div class="field">
+      <%= form.label 'column[name]', 'Name' %>
+      <%= form.text_field 'column[name]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+    <div class="field">
+      <%= form.label 'column[birthdate]', 'Birthdate' %>
+      <%= form.text_field 'column[birthdate]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+    <div class="field">
+      <%= form.label 'column[phone]', 'Phone' %>
+      <%= form.text_field 'column[phone]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+    <div class="field">
+      <%= form.label 'column[address]', 'Address' %>
+      <%= form.text_field 'column[address]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+    <div class="field">
+      <%= form.label 'column[address]', 'Credit card' %>
+      <%= form.text_field 'column[credit_card]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+    <div class="field">
+      <%= form.label 'column[address]', 'Email' %>
+      <%= form.text_field 'column[email]', placeholder: "Enter corresponding header", required: true %>
+    </div>
+  </div>
+  <div>
+    <%= form.submit "Import", class: "btn btn-primary mt-3" %>
+  </div>
+<% end %>

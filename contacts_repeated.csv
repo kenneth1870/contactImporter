@@ -1,0 +1,25 @@
+ctc_email,ctc_fullname,ctc_birthdate,ctc_phone_number,ctc_address,ctc_credit_card
+john@example.com,John Andrews,19800505,(+57) 321 432 15 09,street 21 Main avenue,371449635398431
+clark@example.com,Clark Kent,19891030,(+57) 311 132 55 09,street 22 Main avenue,30569309025904
+bill@example.com,Bill Gates,19980310,(+57) 302 973 41 82,street 21 Main avenue,30569309025904
+paul@example.com,Paul Cooper,19980115,(+57) 320 932 05 09,street 23 Main avenue,6011111111111117
+sam@example.com,sam jones,20000707,(+57) 321 832 05 09,street 24 Main avenue,3530111333300000
+jwick@example.com,john wick,19851125,(+57) 312 432 02 59,street 25 Main avenue,5555555555554444
+tuser@example.com,testing user,19880419,(+57) 313 432 05 09,street 22 Main avenue,6011111111111117
+jmac@example.com,James MacAllister, 20010203,(+57) 333 432 05 09,street 44,6011111111111117
+utest@example.com,user@test,19801210,(+57) 312 232 05 09,street 21 Main avenue,30569309025904
+clark@example.com,Clark Kent,19891030,(+57) 311 132 55 09,street 22 Main avenue,30569309025904
+betatest@example.com,betauser betatest,19960822,(+57) 310 732 05 09,street 23 Main avenue,371449635398431
+samuel@example.com,Samuel_Peterson,19950707,(+57) 300 828 14 26,street 24 Main avenue,3530111333300000
+lex@example.com,Lex Luthor,19801125,(+57) 312 432 02 59,street 25 Main avenue,5555555555554444
+bruce@example.com,Bruce Banner,1119,(+5) 315 752 56 11,street 22 Main avenue,6011111111111117
+bill@example.com,Bill Gates,January,(+57) 302 973 41 82,street 21 Main avenue,30569309025904
+billy@example.com,Billy Madison,20010618,(+57) 300 9 55 99,street 23 Main avenue,371449635398431
+jerry@example.com,Jerry Seinf,19780310,(+55) 502 973 44 8,New York,44569309025904
+george@example.com,George?Const,19761125,(+17) 112 432 72 59,New York street 25 Main avenue,5555555555554444
+kramer@example.com,Cosmo-Kram,19721210,(+22) 388 777 05 09, California street 21 Main avenue,30569309025904
+elaine@example.com,Elaine-Benns,1988,(+55) 313 432 05 09,New York street 22 Main avenue,6011111111111117
+john@example.com,John Andrews,19800505,(+57) 321 432 15 09,street 21 Main avenue,371449635398431
+clark@example.com,Clark Kent,19891030,(+57) 311 132 55 09,street 22 Main avenue,30569309025904
+paul@example.com,Paul Cooper,19980115,(+57) 320 932 05 09,street 23 Main avenue,6011111111111117
+sam@example.com,sam jones,20000707,(+57) 321 832 05 09,street 24 Main avenue,3530111333300000

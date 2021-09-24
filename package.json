@@ -1,5 +1,5 @@
 {
-  "name": "contactImporter",
+  "name":"contact_uploader",
   "private": true,
   "dependencies": {}
 }
